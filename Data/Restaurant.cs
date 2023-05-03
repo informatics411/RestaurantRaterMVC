@@ -19,7 +19,7 @@ namespace RestaurantRaterMVC.Data
         [MaxLength]
         public string Location { get; set; }
 
-        public virtual List<Rating> Ratings { get; set; } = new List<Rating>
+        public virtual List<Rating> Ratings { get; set; } = new List<Rating>();
 
         public double AverageFoodScore
         {
